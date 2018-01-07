@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'F:\tmp\github\40623242-final\ui\dialog.ui'
+# Form implementation generated from reading ui file 'F:\tmp\github\final\40623242-final\ui\dialog.ui'
 #
 # Created by: PyQt5 UI code generator 5.9
 #
@@ -110,15 +110,15 @@ class Ui_Dialog(object):
         self.three.setFont(font)
         self.three.setObjectName("three")
         self.gridLayout.addWidget(self.three, 4, 2, 1, 1)
-        self.point = QtWidgets.QPushButton(Dialog)
-        self.point.setMinimumSize(QtCore.QSize(82, 52))
-        self.point.setMaximumSize(QtCore.QSize(82, 52))
+        self.pointButton = QtWidgets.QPushButton(Dialog)
+        self.pointButton.setMinimumSize(QtCore.QSize(82, 52))
+        self.pointButton.setMaximumSize(QtCore.QSize(82, 52))
         font = QtGui.QFont()
         font.setFamily("微軟正黑體")
         font.setPointSize(20)
-        self.point.setFont(font)
-        self.point.setObjectName("point")
-        self.gridLayout.addWidget(self.point, 5, 1, 1, 1)
+        self.pointButton.setFont(font)
+        self.pointButton.setObjectName("pointButton")
+        self.gridLayout.addWidget(self.pointButton, 5, 1, 1, 1)
         self.zero = QtWidgets.QPushButton(Dialog)
         self.zero.setMinimumSize(QtCore.QSize(82, 52))
         self.zero.setMaximumSize(QtCore.QSize(82, 52))
@@ -262,7 +262,7 @@ class Ui_Dialog(object):
         self.plusButton.setText(_translate("Dialog", "+"))
         self.nine.setText(_translate("Dialog", "9"))
         self.three.setText(_translate("Dialog", "3"))
-        self.point.setText(_translate("Dialog", "."))
+        self.pointButton.setText(_translate("Dialog", "."))
         self.zero.setText(_translate("Dialog", "0"))
         self.two.setText(_translate("Dialog", "2"))
         self.equalButton.setText(_translate("Dialog", "="))
