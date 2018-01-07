@@ -166,13 +166,13 @@ class Dialog(QDialog, Ui_Dialog):
     def squareRoot(self):
         button = self.sender()
         clickedoperator = button.text()
-        operand = float(self.displaytext())
+        operand = float(self.display.text())
         if clickedoperator == "sqrt":
             if operand < 0.0:
                 self.abortoperation()
                 return
             result = math.sqrt(operand)
-        self.display.setText(result)
+        self.display.setText(str(result))
         self.waiting = True
             
 
